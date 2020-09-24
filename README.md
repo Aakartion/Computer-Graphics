@@ -1,2 +1,2 @@
 # Computer-Graphics
-This repository contains assignment of Interactive Computer Graphics
+This repository contains assignments of Interactive Computer Graphics.
