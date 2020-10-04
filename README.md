@@ -7,7 +7,8 @@ COSC4370-Interactive Computer Graphics
 	
 If we are able to plot the values of each pixels of octant’s circumference then we can easily reflect the pixels to other remaining octant’s circumference because of symmetric property of the circle.
 
-1.	Objective
+1.	Objective :
+
 	Implementation of the Circle Rasterization Method
 
 	In this assignment we are implementing the Midpoint Circle Algorithm to determine each pixel in an Octants (division of circle in 8 equal parts (8-way symmetry) through its center and each part is called Octant).  
