@@ -1,9 +1,7 @@
-#### ### ### ### ### ### ### ### ### ### ### ### ### ###
-# Name : Aakarshan Simkhada
-# UH ID : 1898617
-# 
+Name : Aakarshan Simkhada
+UH ID : 1898617
 # For picture Detail See ReadMe File Report.Doc file 
-#### ### ### ### ### ### ### ### ### ### ### ### ### ###
+
 
 COSC4370-Interactive Computer Graphics
 	
@@ -16,7 +14,8 @@ If we are able to plot the values of each pixels of octant’s circumference the
 
  
 
-2.	Configuration
+2.	Configuration :
+
 	We know, the equation of circle is 
 
 	X2 + Y2 = R2 when the center is (0,0), here R is the radius of the circle.
@@ -57,17 +56,20 @@ D = 5/4 – R                                 --------- 3,    because Xk¬ = 0 ,
 
 We will use above 1 and 2 equation in our iteration to find the point and we use equation 3 as the initial value of decision parameter. 
 
-3.	Project Details
-	I have used OpenGL for this assignment in my Linux Operating System. I have used above three equation in the rasterization function to get the points for the 1st octant of the circle.
+3.	Project Details:
+
+	I have used OpenGL for this assignment in my Linux Operating System. I have used above three equation in the rasterization function to get the points for the 1st octant 	of the circle.
 
 	To run the project, Type following code in the terminal window:- 
 	g++ main.cpp
 	./a.out 200 
 
 
-4.	Result
-After running the code, it will generate a 200 x 200 image containing circular arc. The image file is uploaded as well as circle200.ppm.  
+4.	Result:
+
+	After running the code, it will generate a 200 x 200 image containing circular arc. The image file is uploaded as well as circle200.ppm.  
 
 
-5.	Reference
+5.	Reference:
+
 	For this assignment I took a reference of reading.pdf file which was provide to us along with the assignment. 
