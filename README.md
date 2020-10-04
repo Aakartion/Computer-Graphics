@@ -31,26 +31,26 @@ Now we find the Midpoint so that we can choose E or SE as our next point. We cho
 
 From above figure, the Mid point of E and SE is given by,
 
-M = ( Xk+1, Y¬¬¬¬k-1/2)
+M = ( Xk+1, Yk-1/2)
 
 We suppose a decision parameter (Dk) on kth iteration which is given by,
-Dk =  ( Xk+1)2+ ( Y¬¬¬¬k-1/2)2 – R2 on the midpoint. ------ eqn(i)
+Dk =  ( Xk+1)2+ ( Yk-1/2)2 – R2 on the midpoint. ------ eqn(i)
 
 Now, for next iteration,
-Dk+1 = ( Xk+1 +1)2+ ( Y¬¬¬¬k+1 -1/2)2 – R2 ----------------------- eqn(ii)
+Dk+1 = ( Xk+1 +1)2+ ( Yk+1 -1/2)2 – R2 ----------------------- eqn(ii)
 
 We Subtract eqn(ii) to eqn(i) so that we use the previous parameter for our next decision coming parameter in an iteration.
 
 We get, 
-	Dk+1 = Dk + 2X¬k + 3 + Yk+1 2 - Yk - Yk+1 + Y
+	Dk+1 = Dk + 2Xk + 3 + Yk+1 2 - Yk - Yk+1 + Y
 
 Now, if Dk is less than 0 then, we choose Yk+1 = Yk
 
-Dk+1 =  Dk + 2X¬k + 3                     ------- 1
+Dk+1 =  Dk + 2Xk + 3                     ------- 1
 
 And if Dk is greater than 0 then, we choose Yk+1 = Yk – 1
 
-Dk+1 =  Dk + 2*(X¬k – Yk) + 5       -------- 2
+Dk+1 =  Dk + 2*(Xk – Yk) + 5       -------- 2
 
 And initial decision parameter is
 D = 5/4 – R                                 --------- 3,    because Xk¬ = 0 , Yk = R
