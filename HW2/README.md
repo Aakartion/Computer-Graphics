@@ -87,9 +87,10 @@ gluPerspective(45, (windowWidth /(float)windowHeight), 1, 10);
 to setup the field of view to 45 degree and the nearest object at z = 1 and forest object at z = 10
 and setup camera position through
 gluLookAt(cameraPos[0], cameraPos[1], cameraPos[2],
-		0, cameraPos[1], -10,
-		0, 1, 0);
-Project Result
+		0, cameraPos[1], -10, 0, 1, 0);
+
+Project Result : 
+	This includes pictures. 
    
 
 Reference:
