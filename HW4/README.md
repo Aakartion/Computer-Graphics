@@ -1,4 +1,5 @@
 # 1898617
+# For more image detail please see Detail_Report.doc file.
 
 Detail report  for COSC4370 Fall 20 HW4 - OpenGL 
 
